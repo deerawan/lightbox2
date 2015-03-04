@@ -1,12 +1,15 @@
 {
-  "name": "lightbox",
+  "name": "lightbox-bugan",
   "version": "2.7.1",
   "homepage": "http://lokeshdhakar.com/projects/lightbox2/",
   "authors": [
     "Lokesh Dhakar <lokesh.dhakar@gmail.com>"
   ],
   "description": "The original Lightbox script. Uses jQuery.",
-  "main": "js/lightbox.js",
+  "main": [
+    "css/lightbox.css",
+    "js/lightbox.js"
+  ],
   "keywords": [
     "lightbox",
     "overlay",
